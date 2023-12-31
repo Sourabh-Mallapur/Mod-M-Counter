@@ -119,3 +119,7 @@ D3
 ### Final Counter Schematic
 
 ![15](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/2917bd09-4d8b-4d97-a252-129424d03dfd)
+
+## Simulation Results
+
+![1](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/52835755-52c1-4f8d-94e0-34739debf28c)
