@@ -30,6 +30,7 @@ Example of 4-bit Counter
 The truth table is shown below:
 	Present state	Next state
 |No	|Q3	|Q2	|Q1	|Q0	|D3	|D2	|D1	|D0|
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | - |
 |0	|0	|0	|0	|0	|0	|0	|0	|1|
 |1	|0	|0	|0	|1	|0	|0	|1	|0|
 |2	|0	0	1	0	0	0	1	1
