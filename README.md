@@ -28,81 +28,23 @@ Example of 4-bit Counter
 ### Design of a MOD-13 counter
 
 #### The truth table is shown below:
-
-|No| Present state q3 --- q0| Next state  (d3 to d0)|
-| - | ---- | --- |
-
-|No	|Q3	|Q2	|Q1	|Q0	|D3	|D2	|D1	|D0|
-| - | - | - | - | - | - | - | - | - |
-|0	|0	|0	|0	|0	|0	|0	|0	|1|
-|1	|0	|0	|0	|1	|0	|0	|1	|0|
-|2	|0	|0	|1	|0	|0	|0	|1	|1|
-|3	|0	|0	|1	|1	|0 	|1 	|0 	|0|
-|4	|0	|1	|0	|0	|0	|1	|0	|1|
-|5	|0	|1	|0	|1	|0	|1	|1	|0|
-|6	|0	|1	|1	|0	|0	|1	|1	|1|
-|7	|0	|1	|1	|1	|1	|0 	|0	|0|
-|8	|1	|0	|0	|0	|1	|0	|0	|1|
-|9	|1	|0	|0	|1	|1	|0 	|1	|0|
-|10	|1	|0	|1	|0	|1	|0 	|1	|1|
-|11	|1	|0	|1	|1	|1	|1	|0	|0|
-|12	|1	|1	|0	|0	|0	|0	|0	|0|
-|13	|1	|1	|0	|1	|x	|x	|x	|x|
-|14	|1	|1	|1	|0	|x	|x	|x	|x|
-|15	|1	|1	|1	|1	|x	|x	|x	|x|
+![Untitled](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/cb6e7269-e04b-4b6b-9ab7-a2b5415ad2ac)
 
 #### Karnaugh-maps for output expressions
 The flip-flop output expressions can be obtained using Karnaugh-maps, as following:
 
 1.Expression for D0 input of first flip-flop
 
-D0	Q1Q0
-Q3Q2
-		00	01	11	10
-00	1	0	0	1
-01	1	0	0	1
-11	0	X	X	X
-10	1	0	0	1
-
-Simplifying the Boolean expression, we get:
-D0= (Q0)̅((Q3)̅+ (Q2)̅)
-
+![Capture1](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/be9ab599-1910-45cc-8d25-20405c462ef2)
 
 2.	Expression for D1 input of second flip-flop
 
-D1	Q1Q0
-Q3Q2
-		00	01	11	10
-00	0	1	0	1
-01	0	1	0	1
-11	0	X	X	X
-10	0	1	0	1
-
-Simplifying the expression,
-D1= (Q1)̅⊕(Q0)̅
+![Capture2](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/4da0c3fb-b423-41fb-81c1-84c0d51b9a6a)
 
 3.	Expression for D2 of 3rd flip-flop
-D2	Q1Q0
-Q3Q2
-		00	01	11	10
-00	0	0	1	0
-01	1	1	0	1
-11	0	X	X	X
-10	0	1	1	0
 
-
-Simplifying the expression,
-D2= (Q2)̅Q1Q0+ (Q3)̅Q2((Q1)̅ + (Q0)̅)
+![Capture3](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/5259f71b-ab3d-4284-82a7-d6f5ba0fce4b)
 
 4.	Expression for D3 of 4th flip-flop
 
-D3	Q1Q0
-Q3Q2
-		00	01	11	10
-00	0	0	0	0
-01	0	0	1	0
-11	0	X	X	X
-10	1	1	1	1
-
-Simplifying the expression,
-D3=Q3(Q2)̅+Q2Q1Q0
+![Capture4](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/46a3a53b-e9bc-481c-9c22-769a0bdab1d5)
