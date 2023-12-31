@@ -4,8 +4,8 @@ Design and Simulation done using S-Edit - An analog mixed-signal design flow pro
 
 For this Project we will design Mod-13 Up Counter
 
-Introduction
-In a Typical Full-Custom IC Design Flow, 
+## Introduction
+Typical Full-Custom IC Design Flow
 ![Dessignflow drawio](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/bc219e81-795f-4c3e-9019-e30362fbe898)
 
 S-Edit Allows us to do Ciruit Design and Simulation
@@ -15,11 +15,13 @@ MOD counters are defined based on the number of states that the counter will seq
 
 ### Master-Slave D-Flip Flop
 A master-slave flip-flop comprises two latches – a master latch, and a slave latch. This configuration eliminates any transparency in the flip-flop: a change occurring in primary inputs is never reflected directly to the outputs, since opposite phase clocks are used to activate the M and S latches.
+
 ![Picture2](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/2f0bdb46-62f5-4207-a4c8-b30de36e8d23)
 
 In our project, we shall consider a MOD-13, synchronous ‘up’ counter using master slave D-Flip Flop.The computation of number of flip-flops, given by the relation 2^N ≥M, for a mod-M counter, has resulted in requirement of 4 ‘D master-slave’ flip-flops.
 
 Example of 4-bit Counter
+
 ![Picture](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/67415f42-adee-4fb1-a8e7-37eed46d5b60)
 
 Design of a MOD-13 counter
