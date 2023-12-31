@@ -49,7 +49,7 @@ The flip-flop output expressions can be obtained using Karnaugh-maps, as followi
 
 ![Capture4](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/46a3a53b-e9bc-481c-9c22-769a0bdab1d5)
 
-### Simplified Gate leve design
+### Simplified Gate level design
 
 ![g452](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/58fc6b0f-bcc8-4c9f-8a99-fc4f38a148da)
 
@@ -87,3 +87,35 @@ TRANSMISSION GATE
 
 ![7](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/a2074559-5362-414b-8695-5462368b8d5c)
 
+### SEQUENTIAL LOGIC
+
+CMOS S-R LATCH
+
+![8](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/7e9e8406-fc2b-4865-9a3a-118e00f35e80)
+
+D – FLIP FLOP UTILISING MASTER-SLAVE FLIP FLOP LOGIC
+
+![9](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/02a619e1-0063-4844-9132-a0d86e0c158c)
+
+### Counter Inputs
+
+
+D0
+
+![11](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/9786bf80-29fb-4331-8693-45f4467b9274)
+
+D1
+
+![12](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/aadfc58f-9585-4625-b1e2-98d9d2a5065e)
+
+D2
+
+![13](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/7599e544-08e6-41ae-91fa-be53bd346470)
+
+D3
+
+![14](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/85c4764f-5c85-4685-9bcb-4b456b82aa99)
+
+### Final Counter Schematic
+
+![15](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/2917bd09-4d8b-4d97-a252-129424d03dfd)
