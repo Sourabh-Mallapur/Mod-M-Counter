@@ -28,10 +28,10 @@ Example of 4-bit Counter
 ### Design of a MOD-13 counter
 
 The truth table is shown below:
-|	|Present state	|Next state|
+	Present state	Next state
 |No	|Q3	|Q2	|Q1	|Q0	|D3	|D2	|D1	|D0|
-|0	|0	0	0	0	0	0	0	1|
-|1	|0	0	0	1	0	0	1	0
+|0	|0	|0	|0	|0	|0	|0	|0	|1|
+|1	|0	|0	|0	|1	|0	|0	|1	|0|
 |2	|0	0	1	0	0	0	1	1
 |3	|0	0	1	1	0 	1 	0 	0
 |4	|0	1	0	0	0	1	0	1
