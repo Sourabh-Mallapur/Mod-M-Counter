@@ -6,6 +6,7 @@ For this Project we will design Mod-13 Up Counter
 
 ## Introduction
 Typical Full-Custom IC Design Flow
+
 ![Dessignflow drawio](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/bc219e81-795f-4c3e-9019-e30362fbe898)
 
 S-Edit Allows us to do Ciruit Design and Simulation
@@ -24,27 +25,27 @@ Example of 4-bit Counter
 
 ![Picture](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/67415f42-adee-4fb1-a8e7-37eed46d5b60)
 
-Design of a MOD-13 counter
+### Design of a MOD-13 counter
 
 The truth table is shown below:
-	Present state	Next state
-No	Q3	Q2	Q1	Q0	D3	D2	D1	D0
-0	0	0	0	0	0	0	0	1
-1	0	0	0	1	0	0	1	0
-2	0	0	1	0	0	0	1	1
-3	0	0	1	1	0 	1 	0 	0
-4	0	1	0	0	0	1	0	1
-5	0	1	0	1	0	1	1	0
-6	0	1	1	0	0	1	1	1
-7	0	1	1	1	1	0 	0	0
-8	1	0	0	0	1	0	0	1
-9	1	0	0	1	1	0 	1	0
-10	1	0	1	0	1	0 	1	1
-11	1	0	1	1	1	1	0	0
-12	1	1	0	0	0	0	0	0
-13	1	1	0	1	x	x	x	x
-14	1	1	1	0	x	x	x	x
-15	1	1	1	1	x	x	x	x
+|	|Present state	|Next state|
+|No	|Q3	|Q2	|Q1	|Q0	|D3	|D2	|D1	|D0|
+|0	|0	0	0	0	0	0	0	1|
+|1	|0	0	0	1	0	0	1	0
+|2	|0	0	1	0	0	0	1	1
+|3	|0	0	1	1	0 	1 	0 	0
+|4	|0	1	0	0	0	1	0	1
+|5	|0	1	0	1	0	1	1	0
+|6	|0	1	1	0	0	1	1	1
+|7	|0	1	1	1	1	0 	0	0
+|8	|1	0	0	0	1	0	0	1
+|9	|1	0	0	1	1	0 	1	0
+|10	|1	0	1	0	1	0 	1	1
+|11	|1	0	1	1	1	1	0	0
+|12	|1	1	0	0	0	0	0	0
+|13	|1	1	0	1	x	x	x	x
+|14	|1	1	1	0	x	x	x	x
+|15	|1	1	1	1	x	x	x	x
 
 Karnaugh-maps for output expressions
 The flip-flop output expressions can be obtained using Karnaugh-maps, as following:
