@@ -27,31 +27,34 @@ Example of 4-bit Counter
 
 ### Design of a MOD-13 counter
 
-The truth table is shown below:
-	Present state	Next state
+#### The truth table is shown below:
+
+|No| Present state q3 --- q0| Next state  (d3 to d0)|
+| - | ---- | --- |
+
 |No	|Q3	|Q2	|Q1	|Q0	|D3	|D2	|D1	|D0|
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | - |
+| - | - | - | - | - | - | - | - | - |
 |0	|0	|0	|0	|0	|0	|0	|0	|1|
 |1	|0	|0	|0	|1	|0	|0	|1	|0|
-|2	|0	0	1	0	0	0	1	1
-|3	|0	0	1	1	0 	1 	0 	0
-|4	|0	1	0	0	0	1	0	1
-|5	|0	1	0	1	0	1	1	0
-|6	|0	1	1	0	0	1	1	1
-|7	|0	1	1	1	1	0 	0	0
-|8	|1	0	0	0	1	0	0	1
-|9	|1	0	0	1	1	0 	1	0
-|10	|1	0	1	0	1	0 	1	1
-|11	|1	0	1	1	1	1	0	0
-|12	|1	1	0	0	0	0	0	0
-|13	|1	1	0	1	x	x	x	x
-|14	|1	1	1	0	x	x	x	x
-|15	|1	1	1	1	x	x	x	x
+|2	|0	|0	|1	|0	|0	|0	|1	|1|
+|3	|0	|0	|1	|1	|0 	|1 	|0 	|0|
+|4	|0	|1	|0	|0	|0	|1	|0	|1|
+|5	|0	|1	|0	|1	|0	|1	|1	|0|
+|6	|0	|1	|1	|0	|0	|1	|1	|1|
+|7	|0	|1	|1	|1	|1	|0 	|0	|0|
+|8	|1	|0	|0	|0	|1	|0	|0	|1|
+|9	|1	|0	|0	|1	|1	|0 	|1	|0|
+|10	|1	|0	|1	|0	|1	|0 	|1	|1|
+|11	|1	|0	|1	|1	|1	|1	|0	|0|
+|12	|1	|1	|0	|0	|0	|0	|0	|0|
+|13	|1	|1	|0	|1	|x	|x	|x	|x|
+|14	|1	|1	|1	|0	|x	|x	|x	|x|
+|15	|1	|1	|1	|1	|x	|x	|x	|x|
 
-Karnaugh-maps for output expressions
+#### Karnaugh-maps for output expressions
 The flip-flop output expressions can be obtained using Karnaugh-maps, as following:
 
-1.	Expression for D0 input of first flip-flop
+1.Expression for D0 input of first flip-flop
 
 D0	Q1Q0
 Q3Q2
