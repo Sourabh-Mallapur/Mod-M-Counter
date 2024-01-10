@@ -111,7 +111,7 @@ D1
 D2
 
 ![13](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/7599e544-08e6-41ae-91fa-be53bd346470)
-
+-
 D3
 
 ![14](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/85c4764f-5c85-4685-9bcb-4b456b82aa99)
@@ -123,3 +123,8 @@ D3
 ## Simulation Results
 
 ![1](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/52835755-52c1-4f8d-94e0-34739debf28c)
+
+
+## Contributors
+- [Soumyadipto](https://github.com/SomShubho)
+-
