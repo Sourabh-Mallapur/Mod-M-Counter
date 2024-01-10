@@ -11,6 +11,10 @@ Typical Full-Custom IC Design Flow
 
 S-Edit Allows us to do Ciruit Design and Simulation
 
+## Contributors
+- [Soumyadipto](https://github.com/SomShubho)
+- [Sumanth Revankar](https://github.com/Sumanth-Revankar)
+
 ## Gate Level Circuit Design
 MOD counters are defined based on the number of states that the counter will sequence through before returning back to its original value. In the case of mod-13 ‘up’ counter, the counter shall advance by one state, from 0 to 12 (12 states), before returning to its first state 0. The state changes are done in binary form, where each flip-flop stores 1-bit of the binary form. 
 
@@ -123,8 +127,3 @@ D3
 ## Simulation Results
 
 ![1](https://github.com/Sourabh-Mallapur/Mod-m-Counter/assets/106715050/52835755-52c1-4f8d-94e0-34739debf28c)
-
-
-## Contributors
-- [Soumyadipto](https://github.com/SomShubho)
-- [Sumanth Revankar](https://github.com/Sumanth-Revankar)
